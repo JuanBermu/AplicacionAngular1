@@ -1,8 +1,8 @@
 export interface Hero{
-    id: number;
+    id: string;
     name: string;
     edad: number;
-    sp: string;
+    poder: string;
     identidad: string;
     universo: string;
 }

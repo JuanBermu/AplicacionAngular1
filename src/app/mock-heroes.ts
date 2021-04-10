@@ -1,25 +1,14 @@
-import {Hero}from "./hero";
+import {Hero} from "./hero";
 
 export const HEROES: Hero[] = [
-
-{id: 11, name: "Superman", edad: 30, sp: "Super fuerza", identidad: "Clark Kent", universo: "DC"},
-
-{id: 12, name: "Batman", edad: 30, sp: "Artes marciales", identidad: "Bruce Wayne", universo: "DC"},
-
-{id: 13, name: "Hulk", edad: 40, sp: "Super fuerza", identidad: "Bruce Banner", universo: "Marvel"},
-
-{id: 14, name: "ironman", edad: 25, sp: "Fuerza sobrehumana", identidad: "Tony Stark", universo: "Marvel"},
-
-{id: 15, name: "Thor", edad: 1000, sp: "Rayo", identidad: "Thor Odinson", universo: "Marvel"},
-
-{id: 16, name: "Spiderman", edad: 20, sp: "Telaraña", identidad: "Peter Parker", universo: "Marvel"},
-
-{id: 17, name: "Black Widow", edad: 28, sp: "Agilidad", identidad: "Natasha Romanoff", universo: "Marvel"},
-
-{id: 18, name: "Flash", edad: 28, sp: "Super velocidad", identidad: "Barry Allen", universo: "DC"},
-
-{id: 19, name: "Bruja Escarlata", edad: 36, sp: "Magia", identidad: "Wanda Maximoff", universo: "Marvel"},
-
-{id: 20, name: "Wonder Woman", edad: 30, sp: "Super fuerza", identidad: "Diana de Temiscira", universo: "DC"}
-
-];
+    {id: "11", name: "Superman", edad: 30, poder: "Volar, super fuerza", universo: "DC", identidad: "Clark Kent"},
+    {id: "12", name: "Batman", edad: 41, poder: "Habilidades como detective", universo: "DC", identidad: "Bruce Wayne"},
+    {id: "13", name: "Hulk", edad: 35, poder: "Super fuerte", universo: "Marvel", identidad: "Bruce Banner"},
+    {id: "14", name: "Iro Man", edad: 36, poder: "Fuerza sobrehumana y durabilidad", universo: "Marvel", identidad: "Tony Stark"},
+    {id: "15", name: "Thor", edad: 1000, poder: "Dios del trueno", universo: "Marvel", identidad: "Sirgud Jarlson"},
+    {id: "16", name: "Spiderman", edad: 23, poder: "Aracnidos", universo: "Marvel", identidad: "Peter Parker"},
+    {id: "17", name: "Black Widow", edad: 36, poder: "Artes Marciales", universo: "Marvel", identidad: "Natalia Alianovna"},
+    {id: "18", name: "Flash", edad: 28, poder: "Velocidad", universo: "DC", identidad: "Walter West"},
+    {id: "19", name: "Bruja Escarlata", edad: 32, poder: "Proyección astral", universo: "Marvel", identidad: "Wanda Maximoff"},
+    {id: "20", name: "Wonder Woman", edad: 31, poder: "Volar, super fuerza", universo: "DC", identidad: "Diana Prince"},
+]
